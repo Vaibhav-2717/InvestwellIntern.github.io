@@ -1,0 +1,85 @@
+body{
+    /* background-color: rgb(4, 35, 70); */
+    background-image: linear-gradient(to top, #2868f39a 0%, #c057f1d0 100%);
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient(to top, #60d7ecad 0%, #1f67ecd0 100%);
+}
+#SignUp{
+    background-color: rgb(214, 234, 240) !important;
+    border-radius: 15px !important;
+    box-shadow: rgba(16, 0, 243, 0.644) 0px 10px 20px, rgba(0, 4, 255, 0.767) 0px 6px 6px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 80px;
+    padding: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgb(124,154,167);
+}
+table.list{
+    background-color: rgb(214, 234, 240) !important;
+    border-radius: 5px !important;
+    box-shadow: rgba(16, 0, 243, 0.644) 0px 10px 20px, rgba(0, 4, 255, 0.767) 0px 6px 6px;
+    text-align: center;
+    width: 60%;
+}
+td{
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: left;
+    padding: auto;
+}
+th{
+    background-color: rgba(41, 180, 240, 0.747);
+    font-size: 1.3rem;
+}
+tr:nth-child,table.list thread> tr{
+    background-color: rgb(124,154,167);
+}
+input[type="text"],input[type="number"],input[type="email"],input[type="password"]{
+    width: 91%;
+    padding:10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(91, 191, 235);
+    border-radius: 4px;
+}
+#submit,#clear{
+    background:#eee;
+    width: 30%;
+    padding: 1.5%;
+    margin: 4px 2px 2px;
+    display: inline-block;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline:none;
+}
+#submit:hover,#clear:hover{
+    background: #75b9f0ec;
+}
+button{
+    background:#eee;
+    width: auto;
+    padding: 2%;
+    margin: 6px 8px 4px;
+    display: inline-block;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background: #75b9f0ec;
+}
